@@ -1,0 +1,101 @@
+<!--
+	Braulio Salcedo
+	05/03/2017
+	Final Project
+	Trivia Page
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Lil Chano from 79th - Poll </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.css">
+		<link rel="stylesheet" href="responsive.css">
+		<link rel="icon" href="chance.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div id="picturealign">
+					<h1> Chance the Rapper </h1>
+				</div>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html" id="first">Home</a></li>
+					<li><a href="biography.html">His Life</a></li>
+					<li><a href="music.html">His Music</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="trivia.html">Trivia</a></li>
+				</ul>
+			</nav>
+			<main>
+				<div id="img">
+					<img src="images/ChanceTheRapper14.jpg" alt="Chance the Rapper performing.">
+					Chance hyping up the crowd.
+				</div>
+				<div id="text">
+					<h2> Trivia </h2>
+					<form name="trivia" method="post">
+						<br>
+						<span id="1"></span><label>1) Based on YouTube views, what is Chance's most famous song?</label>
+							<div class="radio tops"><input type="radio" name="1" value="family">Family Matters</div>
+							<div class="radio"><input type="radio" name="1" value="angels">Angels</div>
+							<div class="radio"><input type="radio" name="1" value="problem">No Problem</div>
+							<div class="radio"><input type="radio" name="1" value="ma">Hey Ma</div>
+						<br>
+						<span id="2"></span><label>2) What high-school did Chance attend?</label>
+							<div class="radio tops"><input type="radio" name="2" value="arts">Chicago High School for the Arts</div>
+							<div class="radio"><input type="radio" name="2" value="jones">Jones College Prep</div>
+							<div class="radio"><input type="radio" name="2" value="whitney">Whitney M. Young Magnet High School</div>
+							<div class="radio"><input type="radio" name="2" value="lincoln">Lincoln Park High School</div>
+						<br>
+						<span id="3"></span><label>3) How many 2017 Grammy nominations did Chance get?</label>
+							<div class="radio tops"><input type="radio" name="3" value="3">3</div>
+							<div class="radio"><input type="radio" name="3" value="4">4</div>
+							<div class="radio"><input type="radio" name="3" value="5">5</div>
+							<div class="radio"><input type="radio" name="3" value="6">6</div>
+						<br>
+						<span id="4"></span><label>4) Which of these artists has Chance not worked with?</label>
+							<div class="radio tops"><input type="radio" name="4" value="madonna">Madonna</div>
+							<div class="radio"><input type="radio" name="4" value="quavo">Quavo</div>
+							<div class="radio"><input type="radio" name="4" value="cudi">Kid Cudi</div>
+							<div class="radio"><input type="radio" name="4" value="milo">Milo & Otis</div>
+						<br>
+						<span id="5"></span><label>5) Where did Chance crack his head open?</label>
+							<div class="radio tops"><input type="radio" name="5" value="mom">His mom's house</div>
+							<div class="radio"><input type="radio" name="5" value="studio">The studio</div>
+							<div class="radio"><input type="radio" name="5" value="aunt">Auntie Linda's house</div>
+							<div class="radio"><input type="radio" name="5" value="school">His high-school</div>
+						<br>
+						<span id="6"></span><label>6) According to Chance what is the best song he has ever written?</label>
+							<div class="radio tops"><input type="radio" name="6" value="cocoa">Cocoa Butter Kisses</div>
+							<div class="radio"><input type="radio" name="6" value="night">All Night</div>
+							<div class="radio"><input type="radio" name="6" value="drugs">Same Drugs</div>
+							<div class="radio"><input type="radio" name="6" value="friends">Summer Friends</div>
+						<br>
+						<span id="7"></span><label>7) What "The Life of Pablo" song was Chance going to be in?</label>
+							<div class="radio tops"><input type="radio" name="7" value="lights">Low Lights</div>
+							<div class="radio"><input type="radio" name="7" value="famous">Famous</div>
+							<div class="radio"><input type="radio" name="7" value="fml">FML</div>
+							<div class="radio"><input type="radio" name="7" value="high">Highlights</div>
+						<br>
+						<input type="button" id="button" value="Submit">
+					</form>
+					<audio controls autoplay loop class="someaudio">
+						<source src="audio/wonderful.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+				</div>
+			</main>
+			<footer>
+				Copyright &copy; 2017
+			</footer>
+		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.2.0/jquery-confirm.min.js"></script>
+		<script type="text/javascript" src="js/form.js"></script>
+	</body>
+</html>

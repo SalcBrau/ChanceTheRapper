@@ -1,0 +1,147 @@
+/*
+	Braulio Salcedo
+	05/03/2017
+	Final Project
+	Stylesheet Responstive Page
+*/
+@media only all and (max-width: 1024px)
+{
+	#wrapper
+	{
+		width: auto;
+		min-width: 0;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+	
+	nav li, nav a, #first
+	{
+		display: inline-block;
+		border: none;
+	}
+	
+	nav a
+	{
+		background-color: #3c355e;
+		font-size: 19px;
+	}
+	
+	nav
+	{
+		float: none;
+		width: 83%;
+		text-align: center;
+		display: block;
+		margin: auto;
+		background-color: #3c355e;
+	}
+	
+	#picturealign
+	{
+		width: 100%;
+	}
+	
+	#img, #text, footer
+	{
+		display: block;
+		margin: auto;
+	}
+	
+	#text 
+	{
+		margin-top: -41px;
+	}
+	
+	h1
+	{
+		font-size: 65px;
+		margin-bottom: 47px;
+	}
+	
+	#img
+	{
+		font-size: 25px;
+	}
+	
+	h2
+	{
+		font-size: 45px;
+	}
+	
+	form
+	{
+		font-size: 18px;
+		margin-left: 7%;
+	}
+	
+	footer
+	{
+		font-size: 19px;
+	}
+}
+
+@media only all and (max-width: 768px)
+{
+	#img, #text, footer, nav
+	{
+		width: 100%;
+	}
+	
+	form 
+	{
+		margin-left: 10%;
+	}
+
+	h1
+	{
+		font-size: 60px;
+	}
+	
+	#img
+	{
+		font-size: 20px;
+	}
+	
+	h2
+	{
+		font-size: 40px;
+	}
+	
+	form
+	{
+		font-size: 16px;
+	}
+	
+	nav a
+	{
+		font-size: 18px;
+	}
+	
+	footer 
+	{
+		font-size: 18px;
+	}
+	
+	nav li, nav a, #first
+	{
+		display: block;
+		border: none;
+	}
+	
+	nav a
+	{
+		border-bottom: 1px solid #FFFFFF;
+	}
+	
+	#first
+	{
+		border-bottom: 1px solid #FFFFFF;
+		border-top: 1px solid #FFFFFF;
+	}
+	
+	#img
+	{
+		display: none;
+	}
+}

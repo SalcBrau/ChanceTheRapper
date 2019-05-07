@@ -1,0 +1,380 @@
+/*
+	Braulio Salcedo
+	05/03/2017
+	Final Project
+	Stylesheet All Pages
+*/
+ul
+{
+	list-style-type: none;
+}
+
+body
+{
+	background-color: #141122; 
+	color: #FFFFFF;
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 1200px;
+	background-color: #282442; 
+}
+
+h1
+{
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 70px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#picturealign
+{
+	text-align: center;
+	width: 83%;
+}
+
+nav 
+{
+	float: right;
+	width: 17%;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+nav ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav a {
+
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	background-color: #282442; 
+	border-bottom: 1px solid #FFFFFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	color: #EAEAEA;
+}
+
+#first 
+{
+	border-top: 1px solid #FFFFFF;
+}
+
+nav a:visited 
+{
+	color: #EAEAEA;
+}
+nav a:hover 
+{
+	color: #869DC7;
+	background-color: #EAEAEA;
+}	
+
+header
+{
+	background-color: #4C344C; 
+	margin-bottom: -47px;
+}
+
+h2
+{
+	color: #E4DFCC;
+	font-size: 50px;
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+	color: #FFFFFF;
+	padding-top: 35px;
+}
+
+#text, #text1
+{
+	text-align: center;
+	width: 83%;
+	background-color: #7b616c; 
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#text
+{
+	font-size: 25px;
+	margin-top: -43px;
+}
+
+#text1
+{
+	font-size: 40px;
+	padding-top: 15px;
+}
+
+p
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h3
+{
+	font-size: 40px;
+	font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+}
+
+span
+{
+	font-size: 20px;
+}
+
+img
+{
+	float: right;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 500px;
+}
+
+audio
+{
+	display: block;
+	margin: auto;
+	margin-top: 7px;
+	margin-bottom: -5px;
+}
+
+#bio
+{
+	margin-top: -15px;
+	padding-bottom: 25px;
+}
+
+#img
+{
+	width: 83%;
+	text-align: center;
+	font-size: 30px;
+	background-color: #937783; 
+	margin-bottom: -8px;
+	padding-bottom: 15px;
+}
+
+#text1 audio
+{
+	margin-top: 15px;
+	padding-bottom: 25px;
+}
+
+footer
+{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: -8px;
+	width: 83%;
+	background-color: #3c355e; 
+}
+
+hr
+{
+	width: 75%;
+	margin-bottom: -13px;
+}
+
+.name-buttons
+{
+	display: block;
+	margin: auto;
+	background-color: #2D282A;
+	text-align: center;
+	width: 500px;
+	margin-top: 5px;
+}
+
+.player 
+{
+	width: 500px;
+	display: block;
+}
+
+.name-buttons button 
+{
+	width: 95px;
+	height: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 13px;
+	background-color: #2D282A;
+	color: #ffffff;
+}
+
+.name 
+{
+	margin-bottom: -23px;
+	font-size: 30px;
+}
+
+.cover 
+{
+	width: 500px;
+	height: 450px;
+	float: none;
+	margin-top: -15px;
+	margin-bottom: -13px;
+
+}
+
+#tenPlayer, #acidPlayer
+{
+	margin-bottom: -13px;
+}
+
+.down button
+{
+	width: 100%;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+.menu
+{
+	display: none;
+}
+
+.menu a, #images a
+{
+	cursor: pointer;
+}
+
+a div
+{
+	border-style: solid;
+	border-color: #736369;
+	border-width: 0.1px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 20px;
+	color: #bfbfbf;
+}
+
+.last
+{
+	margin-bottom: -3.5px;
+	border-bottom: none;
+}
+
+.first
+{
+	border-top: 0.1px solid white;
+	border-color: #736369;
+	margin-top: 10px;
+}
+
+.current 
+{
+	color: #f0f0f0;
+	font-size: 25px;
+	background-color: #474344;
+}
+
+.someaudio
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 40px;
+}
+
+#images 
+{
+	text-align: center;
+	margin-top: -35px;
+	margin-bottom: 20px;
+}
+
+#images img
+{
+	height: 250px;
+	width: 30%;
+	margin-right: 5px;
+	margin-left: 5px;
+	float: none;
+}
+
+.disable-anchor 
+{
+	pointer-events: none;
+	cursor: default;
+}
+
+form 
+{
+	display: block;
+	margin: auto;
+	width: 85%;
+	margin-top: -45px;
+	margin-bottom: 35px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.radio
+{
+	display: block;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+label 
+{
+	margin-left: 5px;
+}
+
+#button
+{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #ad919d;
+	color: #ffffff;
+}
+
+span, #error
+{
+	color: #cf3232;
+	font-size: 25px;
+}
+
+#error 
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	background-color: #e66e6e;
+	width: 575px;
+}
+
+.tops 
+{
+	margin-top: 20px;
+}
+
+#results
+{
+	display: none;
+}
+
+#result
+{
+	font-size: 50px;
+}
